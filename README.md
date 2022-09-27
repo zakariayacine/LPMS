@@ -1,7 +1,7 @@
 
 # LPMS 1.0
 
-LPMS is for "Little PHP MVC Structure", if you want to start a quick project then just use this starter kit.
+LPMS is for "Little PHP MVC Structure", if you want to start a quick php project then just use this starter kit.
 
 
 ## Dealing with files
