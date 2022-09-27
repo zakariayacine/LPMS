@@ -21,7 +21,12 @@ function getPage($request , $routs){
 $page = getPage($request , $routs);
 //check if the rout exist 
 if(isset($page)){
+
     render($page['title'],$page['view'], $page['controller']);
+    echo "</div>";
+    echo "</body>";
+    echo " </html>" ;
+
 }else{
     render('error','errors/404.php');
 }

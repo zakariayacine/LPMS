@@ -6,6 +6,8 @@ include $GLOBALS['layouts'].'\header.php';
 function render($titel, $view, $controller = null){
     titel($titel);
     echo "</head>";
+    include $GLOBALS['layouts'].'\nav.php';
+    echo "<div class=\"py-3\">";
     if($controller){
         include $GLOBALS['controller']."/".$controller;
     }
